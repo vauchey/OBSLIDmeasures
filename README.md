@@ -4,6 +4,7 @@
 ## News :
 * A new dataset with lidar Pandar 128 is availaible Layer [here](#Pandar128)
 * A new dataset with lidar Pandar 40 is availaible Layer [here](#Pandar40)
+* * A new dataset with lidar VLP160 is availaible Layer [here](#VLP16)
 * A new dataset with the vlp16 will be available soon
 * Results are abailaible [here](#results)
 
@@ -44,6 +45,8 @@ vauchey@esigelec.fr
 
 Special Thanks to the members of the [SIRD](http://www.esigelec.fr/en/node/113) team : Marc DEHAIS, Anthony DESHAIS, Christophe ALEGRE, Pascal FALLA, Jérémy FOURRE
 
+Special Thanks to Aymen BLANCO for the help on the experiments. 
+
 
 # Datasets
 Dataset Lidar done by [ESIGELEC](http://www.esigelec.fr/).
@@ -60,6 +63,11 @@ Dataset Lidar done by [ESIGELEC](http://www.esigelec.fr/).
 * A dataset with lidar Pandar 40 is availaible Layer (0.5, 1, 2 et 31m)
   ** [Pandar 40 (Download)](https://esigelec-my.sharepoint.com/:u:/g/personal/vauchey_esigelec_fr/EcuiAwBcePNAtcPCsUHNiW4BAh54745wT9-1xPChlhzSNQ?e=cc2JR4)
 
+
+<a id="VLP16"></a>
+#### DATASET 2020/01/25 VLP16: 
+* A dataset with lidar Velodyne vlp16 is availaible Layer (0.5, 1, 2 et 31m)
+  ** [vlp 16 (Download)](https://esigelec-my.sharepoint.com/:u:/g/personal/vauchey_esigelec_fr/EXaM5f3oxgNFoF5lxX8pwRkBh6DCSlyky_umVNbYFPKEVA?e=T0DfZN)
 
 
 
@@ -81,8 +89,20 @@ Some resutls obtained on severall lidar are availaible here
 ![](images/result40.jpg )
 
 
-The low reflectivity seems to have an important effect on the number of point returned by the Lidars, expecially with the pandar 128.
-High or low reflectivities seems to have few effect on the point accuracy.
+#### results on  VLP16:
+![](images/result16.jpg )
+
+
+
+The low reflectivity seems to have an important effect on the number of point returned by all the Lidars.
+High reflectivities seems to have few effect on the point accuracy.
+
+The pandar 40 is the most robust to lidar low reflectivyty.
+The both hesai lidar are affected by low reflevitity at short distance but don't return point with incorrects positions.
+The VLP16 is also very sensible to low reflevitity at short distance (the number of points decrease), but there is also many points with bad poitions.
+The VLP16 number of points decrease a lot a long distance (31m) with low reflectivity
+
+
 
 
 
