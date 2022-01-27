@@ -4,7 +4,7 @@
 ## News :
 * A new dataset with lidar Pandar 128 is availaible Layer [here](#Pandar128)
 * A new dataset with lidar Pandar 40 is availaible Layer [here](#Pandar40)
-* * A new dataset with lidar VLP160 is availaible Layer [here](#VLP16)
+* A new dataset with lidar VLP16 is availaible Layer [here](#VLP16)
 * A new dataset with the vlp16 will be available soon
 * Results are abailaible [here](#results)
 
