@@ -1,5 +1,5 @@
 
-# OBSLID (OBStacle LIDdar) : The [ESIGELEC](https://www.esigelec.fr/)) with the found from the [CARNOT ESP INSTITUDE](http://www.carnot-esp.fr/)) has developped a system to evaluate the lidar performances in case of high or low reflectivity
+# OBSLID (OBStacle LIDdar) : The [ESIGELEC](https://www.esigelec.fr/)) with the found from the [CARNOT ESP INSTITUDE](http://www.carnot-esp.fr/)  [Region Normandie](https://www.normandie.fr/) and [FEDER](https://www.europe-en-normandie.eu/fonds-europeen-de-developpement-regional-feder)) has developped a system to evaluate the lidar performances in case of high or low reflectivity
 
 ## News :
 * A new dataset with lidar Pandar 128 is availaible Layer [here](#Pandar128)
